@@ -1,0 +1,179 @@
+.poppy-instagram {
+width: 299px;
+height: 600px;
+margin: 0 auto;
+background-image: url(https://cdnw.nickpic.host/vyabvc.png);
+position: relative;
+}
+.poppy-instagram .ipc {
+width: 150px;
+height: 22px;
+background-image: url(https://cdnw.nickpic.host/vyavXG.png);
+position: absolute;
+top: 18px;
+left: 75px;
+z-index: 3;
+}
+.poppy-instagram .overflow {
+width: 260px;
+height: 564px;
+overflow: hidden;
+box-sizing: border-box;
+position: absolute;
+z-index: 1;
+top: 18px;
+left: 20px;
+-webkit-border-radius: 26px;
+border-radius: 26px;
+}
+.poppy-instagram .insta {
+width: 260px;
+height: 564px;
+overflow: auto;
+box-sizing: border-box;
+position: absolute;
+z-index: 1;
+top: 0px;
+left: 0px;
+background: #fff;
+-webkit-border-radius: 26px;
+border-radius: 26px;
+overflow-x: hidden;
+}
+.poppy-instagram .insta::-webkit-scrollbar { width: 11px; }
+.poppy-instagram .insta::-webkit-scrollbar-track { background: #fff; }
+.poppy-instagram .insta::-webkit-scrollbar-thumb { background: #000; border:5px solid #fff; }
+.poppy-instagram:before, .poppy-instagram:after {
+width: 260px;
+height: 22px;
+display: block;
+content: '';
+position: absolute;
+z-index: 2;
+left: 20px;
+}
+.poppy-instagram:before {top: 18px;
+-webkit-border-top-left-radius: 26px;
+-webkit-border-top-right-radius: 26px;
+-moz-border-radius-topleft: 26px;
+-moz-border-radius-topright: 26px;
+border-top-left-radius: 26px;
+border-top-right-radius: 26px;
+background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%);
+background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%);
+}
+.poppy-instagram:after {bottom: 18px;
+-webkit-border-bottom-right-radius: 26px;
+-webkit-border-bottom-left-radius: 26px;
+-moz-border-radius-bottomright: 26px;
+-moz-border-radius-bottomleft: 26px;
+border-bottom-right-radius: 26px;
+border-bottom-left-radius: 26px;
+background: -moz-linear-gradient(bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+background: -webkit-linear-gradient(bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%);
+background: linear-gradient(to top, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%);
+}
+.poppy-instagram .insta .user {
+width: 260px;
+height: 350px;
+background: #fff;
+}
+.poppy-instagram .insta .user-block {
+width: 260px;
+height: 350px;
+padding-right: 11px;
+box-sizing: border-box;
+position: relative;
+background: -moz-linear-gradient(bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 100%);
+background: -webkit-linear-gradient(bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 50%,rgba(0,0,0,0) 100%);
+background: linear-gradient(to top, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 50%,rgba(0,0,0,0) 100%);
+}
+.poppy-instagram .insta .detail {
+display: table;
+width: 100%;
+position: relative;
+top: 190px;
+}
+.poppy-instagram .insta .number {
+display: table-cell;
+vertical-align: middle;
+width: 20%;
+text-align: center;
+font: 7px lato;
+text-transform: uppercase;
+color: #fff;
+}
+.poppy-instagram .insta .number span {
+display: block;
+font-weight: bold;
+font: 14px fjalla one;
+}
+.poppy-instagram .insta .bio {
+font: 11px Lato;
+text-align: justify;
+color: #fff;
+padding: 5px;
+margin: 10px 0;
+position: relative;
+top: 190px;
+}
+.poppy-instagram .insta .name {
+display: table;
+width: 100%;
+position: relative;
+top: 190px;
+}
+.poppy-instagram .insta .icon, .poppy-instagram .insta .handle {
+display: table-cell;
+vertical-align: middle;
+}
+.poppy-instagram .insta .icon {
+width: 30%;
+text-align: center;
+}
+.poppy-instagram .insta .ico-div {
+width: 50px;
+height: 50px;
+padding: 3px;
+margin: 0 auto;
+-webkit-border-radius: 50%;
+border-radius: 50%;
+background: -moz-linear-gradient(45deg, rgba(254,211,115,1) 4%, rgba(241,82,69,1) 30%, rgba(217,46,127,1) 55%, rgba(155,54,183,1) 80%, rgba(81,94,207,1) 100%);
+background: -webkit-linear-gradient(45deg, rgba(254,211,115,1) 4%,rgba(241,82,69,1) 30%,rgba(217,46,127,1) 55%,rgba(155,54,183,1) 80%,rgba(81,94,207,1) 100%);
+background: linear-gradient(45deg, rgba(254,211,115,1) 4%,rgba(241,82,69,1) 30%,rgba(217,46,127,1) 55%,rgba(155,54,183,1) 80%,rgba(81,94,207,1) 100%);
+}
+.poppy-instagram .insta .ico-div img {
+width: 50px;
+-webkit-border-radius: 50%;
+border-radius: 50%;
+}
+.poppy-instagram .insta .handle {
+width: 70%;
+color: #fff;
+text-align: left;
+font-weight: bold;
+font: 18px fjalla one;
+text-transform: capitalize;
+}
+.poppy-instagram .insta .handle span {
+display: block;
+font-weight: normal;
+font: 12px fjalla one;
+text-transform: lowercase;
+}
+.poppy-instagram .insta .insta-images {
+width: 260px;
+line-height: 70%;
+-webkit-column-count: 2;
+-moz-column-count: 2;
+column-count: 2;
+-webkit-column-gap: 0px;
+-moz-column-gap: 0px;
+column-gap: 0px;
+}
+.poppy-instagram .insta .insta-images a img {
+min-width: 130px;
+width: 130px;
+max-width: 130px;
+}
