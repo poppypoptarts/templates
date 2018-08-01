@@ -1,0 +1,139 @@
+.poppy-instagram {
+width: 299px;
+height: 600px;
+margin: 0 auto;
+background-image: url(https://cdnw.nickpic.host/vyabvc.png);
+position: relative;
+}
+.poppy-instagram .ipc {
+width: 150px;
+height: 22px;
+background-image: url(https://cdnw.nickpic.host/vyavXG.png);
+position: absolute;
+top: 18px;
+left: 75px;
+z-index: 3;
+}
+.poppy-instagram .overflow {
+width: 260px;
+height: 564px;
+overflow: hidden;
+box-sizing: border-box;
+position: absolute;
+z-index: 1;
+top: 18px;
+left: 20px;
+-webkit-border-radius: 26px;
+border-radius: 26px;
+}
+.poppy-instagram .insta {
+width: 260px;
+height: 564px;
+overflow: auto;
+box-sizing: border-box;
+position: absolute;
+z-index: 1;
+top: 0px;
+left: 0px;
+background: #fff;
+-webkit-border-radius: 26px;
+border-radius: 26px;
+overflow-x: hidden;
+}
+.poppy-instagram .insta::-webkit-scrollbar { width: 11px; }
+.poppy-instagram .insta::-webkit-scrollbar-track { background: #fff; }
+.poppy-instagram .insta::-webkit-scrollbar-thumb { background: #000; border:5px solid #fff; }
+.poppy-instagram:before, .poppy-instagram:after {
+width: 260px;
+height: 22px;
+display: block;
+content: '';
+position: absolute;
+z-index: 2;
+left: 20px;
+}
+.poppy-instagram:before {top: 18px;
+-webkit-border-top-left-radius: 26px;
+-webkit-border-top-right-radius: 26px;
+-moz-border-radius-topleft: 26px;
+-moz-border-radius-topright: 26px;
+border-top-left-radius: 26px;
+border-top-right-radius: 26px;
+background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%);
+background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%);
+}
+.poppy-instagram:after {bottom: 18px;
+-webkit-border-bottom-right-radius: 26px;
+-webkit-border-bottom-left-radius: 26px;
+-moz-border-radius-bottomright: 26px;
+-moz-border-radius-bottomleft: 26px;
+border-bottom-right-radius: 26px;
+border-bottom-left-radius: 26px;
+background: -moz-linear-gradient(bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+background: -webkit-linear-gradient(bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%);
+background: linear-gradient(to top, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%);
+}
+.poppy-instagram .insta .insta-pic {
+width: 260px;
+height: 260px;
+background: #fff;
+}
+.poppy-instagram .insta .insta-pic img {
+min-width: 260px;
+width: 260px;
+max-width: 260px;
+min-height: 260px;
+height: 260px;
+max-height: 260px;
+}
+.poppy-instagram .insta .insta-user {
+display: table;
+width: 100%;
+margin: 10px 0;
+}
+.poppy-instagram .insta .insta-user .user-ico, .poppy-instagram .insta .insta-user .user-name, .poppy-instagram .insta .insta-user .user-more { display: table-cell; vertical-align: middle; color: #000;}
+.poppy-instagram .insta .insta-user .user-ico {width: 70px;}
+.poppy-instagram .insta .icon-div {
+width: 50px;
+height: 50px;
+padding: 3px;
+margin: 0 auto;
+-webkit-border-radius: 50%;
+border-radius: 50%;
+background: -moz-linear-gradient(45deg, rgba(254,211,115,1) 4%, rgba(241,82,69,1) 30%, rgba(217,46,127,1) 55%, rgba(155,54,183,1) 80%, rgba(81,94,207,1) 100%);
+background: -webkit-linear-gradient(45deg, rgba(254,211,115,1) 4%,rgba(241,82,69,1) 30%,rgba(217,46,127,1) 55%,rgba(155,54,183,1) 80%,rgba(81,94,207,1) 100%);
+background: linear-gradient(45deg, rgba(254,211,115,1) 4%,rgba(241,82,69,1) 30%,rgba(217,46,127,1) 55%,rgba(155,54,183,1) 80%,rgba(81,94,207,1) 100%);
+}
+.poppy-instagram .insta .icon-div img {
+width: 50px;
+-webkit-border-radius: 50%;
+border-radius: 50%;
+}
+.poppy-instagram .insta .insta-user .user-name {
+padding-left: 5px;
+text-align: left;
+font-weight: bold;
+font: 14px fjalla one;
+text-transform: lowercase;
+}
+.poppy-instagram .insta .insta-user .user-name span {
+display: block;
+font-weight: normal;
+font: 10px fjalla one;
+}
+.poppy-instagram .insta .insta-user .user-more {
+width: 25px;
+text-align: center;
+}
+.poppy-instagram .insta .insta-caption {
+height: 200px;
+padding: 0px 10px;
+overflow: auto;
+font: 12px Lato;
+text-align: justify;
+color: #000;
+}
+.poppy-instagram .insta .insta-caption::-webkit-scrollbar { width: 11px; }
+.poppy-instagram .insta .insta-caption::-webkit-scrollbar-track { background: #fff; }
+.poppy-instagram .insta .insta-caption::-webkit-scrollbar-thumb { background: #000; border:5px solid #fff; }
