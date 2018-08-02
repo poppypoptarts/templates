@@ -1,0 +1,355 @@
+@font-face {
+    font-family: "Evolve";
+    src: url('http://files.jcink.net/uploads/persecution/fonts/MADE_Evolve_Sans_Light_EVO__PERSONAL_USE_.ttf');
+}
+#BOTI-sig, #BOTI-sig *, #BOTI-sig *:before, #BOTI-sig *:after {
+  box-sizing: border-box;  
+}
+#BOTI-sig {
+  width: 400px;
+  height: 200px;
+  margin: 0 auto;
+  background: #161743;
+  background-image: url(https://cdnw.nickpic.host/xIvrBm.png);
+  border: 5px solid #fff;
+  overflow: hidden;
+  position: relative;
+  font-family: Evolve;
+  color: #fff;
+  font-size: 12px;
+}
+#BOTI-sig .planet-lvl4 {
+  position: absolute;
+  z-index: 1;
+  width: 390px;
+  height: 190px;
+  top: 0;
+  left: 0;
+}
+#BOTI-sig .planet-lvl4 planet {
+  display: block;
+  position: absolute;
+  top: -45px;
+  right: -45px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  transform: rotate(90deg);
+  background-image: url(https://cdnw.nickpic.host/xIx5oj.png), linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  -webkit-box-shadow: 0px 0px 59px -15px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 59px -15px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 59px -15px rgba(0,0,0,0.75);
+}
+#BOTI-sig .planet-lvl4 rocket {
+  display: block;
+  position: absolute;
+  top: 20px;
+  left: -30px;
+  width: 30px;
+  height: 10px;
+  background: grey;
+-webkit-border-top-right-radius: 50px;
+-webkit-border-bottom-right-radius: 50px;
+-moz-border-radius-topright: 50px;
+-moz-border-radius-bottomright: 50px;
+border-top-right-radius: 50px;
+border-bottom-right-radius: 50px;
+    animation-name: rocket;
+    animation-timing-function: linear;
+    animation-duration: 80s;
+    animation-fill-mode: backwards;
+    animation-iteration-count: infinite;
+}
+#BOTI-sig .planet-lvl4 rocket:before {
+  display: block;
+  content: '';
+  background: transparent;
+  width: 20px;
+  height: 30px;
+  border-radius: 50%;
+  border-top: 5px solid #b92727;
+  transform: rotate(90deg);
+  position: absolute;
+  top: -10px;
+  left: -15px;
+}
+#BOTI-sig .planet-lvl4 rocket:after {
+  display: block;
+  content: '';
+  background: #000;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  right: 4px;
+}
+#BOTI-sig .planet-lvl4 rocket fire {
+  display: block;
+  width: 10px;
+  height: 10px;
+  background: #000;
+  background-image: linear-gradient(to left, #f83600 0%, #f9d423 100%);
+  position: absolute;
+  left: -11px;
+  -webkit-border-radius: 50px;
+-webkit-border-top-left-radius: 0;
+-moz-border-radius: 50px;
+-moz-border-radius-topleft: 0;
+border-radius: 50px;
+border-top-left-radius: 0;
+transform: rotate(-45deg);
+}
+#BOTI-sig .planet-lvl4 rocket hideblock {
+  width: 15px;
+  height: 10px;
+  display: block;
+  background: grey;
+  position: absolute;
+}
+@keyframes rocket {
+    0%   {left: -200px;}
+    100% {left: 600px;}
+}
+#BOTI-sig .planet-lvl3 {
+  position: absolute;
+  z-index: 2;
+  width: 390px;
+  height: 190px;
+  top: 0;
+  left: 0;
+}
+#BOTI-sig .planet-lvl3 planet {
+    display: block;
+    position: absolute;
+    top: 14px;
+    left: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    background: #fff;
+    background-image: url(https://cdnw.nickpic.host/xIxaCW.png), linear-gradient(to top, #e14fad 0%, #f9d423 100%);
+    -webkit-box-shadow: 0px 0px 59px -15px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 59px -15px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 59px -15px rgba(0,0,0,0.75);
+}
+#BOTI-sig .planet-lvl3 moon {
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 70px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background: #fff;
+    background-image: url(https://cdnw.nickpic.host/xIxaCW.png), linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
+    -webkit-box-shadow: 0px 0px 30px -15px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 30px -15px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 30px -15px rgba(0,0,0,0.75);
+}
+#BOTI-sig .planet-lvl2 {
+  position: absolute;
+  z-index: 3;
+  width: 390px;
+  height: 190px;
+  top: 0;
+  left: 0;
+  overflow-y: auto;
+ overflow-x: hidden;
+}
+#BOTI-sig .planet-lvl2::-webkit-scrollbar { width: 11px; }
+#BOTI-sig .planet-lvl2::-webkit-scrollbar-track { background: #161743; }
+#BOTI-sig .planet-lvl2::-webkit-scrollbar-thumb { background: #fff; border:5px solid #161743; }
+#BOTI-sig .planet-lvl2 .titleblock {
+  width: 390px;
+  height: 190px;
+  text-align: center;
+  line-height: 190px;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+#BOTI-sig .planet-lvl2 .bioblock {
+  width: 390px;
+  height: 100px;
+  padding-left: 145px;
+  padding-right: 11px;
+  overflow: hidden;
+}
+#BOTI-sig .planet-lvl2 .bioslope {
+  float: left;
+  width: 200px;
+  height: 190px;
+  shape-outside: polygon(0 0, 100% 100%, 100% 100%, 0 100%);
+}
+#BOTI-sig .planet-lvl2 .spaceblock linkone, #BOTI-sig .planet-lvl2 .spaceblock linktwo, #BOTI-sig .planet-lvl2 .spaceblock linkthree {
+  display: block;
+  border-radius: 50%;
+  position: relative;
+  background: #fff;
+  -webkit-box-shadow: 0px 0px 30px -15px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 30px -15px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 30px -15px rgba(0,0,0,0.75);
+}
+#BOTI-sig .planet-lvl2 .spaceblock a:nth-child(1) {
+  display: block;
+  width: 70px;
+  height: 70px;
+}
+#BOTI-sig .planet-lvl2 .spaceblock a:nth-child(2) {
+  display: block;
+  width: 40px;
+  height: 40px;
+}
+#BOTI-sig .planet-lvl2 .spaceblock a:nth-child(3) {
+  display: block;
+  width: 100px;
+  height: 100px;
+}
+#BOTI-sig .planet-lvl2 .spaceblock linkone {
+  width: 70px;
+  height: 70px;
+  top: 0;
+  left: 70px;
+  background-image: url("https://cdnw.nickpic.host/xIjlwm.png"), linear-gradient(to top, #fcc5e4 0%, #fda34b 15%, #ff7882 35%, #c8699e 52%, #7046aa 71%, #0c1db8 87%, #020f75 100%);
+}
+#BOTI-sig .planet-lvl2 .spaceblock linktwo {
+  width: 40px;
+  height: 40px;
+  top: 0;
+  left: 270px;
+  background-image: url("https://cdnw.nickpic.host/xIjcjq.png"), linear-gradient(to right, #f83600 0%, #f9d423 100%);
+}
+#BOTI-sig .planet-lvl2 .spaceblock linkthree {
+  width: 100px;
+  height: 100px;
+  top: 0;
+  left: 135px;
+  background-image: url("https://cdnw.nickpic.host/xIjgnd.png"), linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+}
+#BOTI-sig .planet-lvl2 .spaceman {
+  width: 390px;
+  height: 190px;
+  position: relative;
+  overflow: hidden;
+}
+#BOTI-sig .planet-lvl2 .floaty {
+position: absolute;
+  width: 30px;
+  height: 50px;
+  bottom: 20px;
+  right: 24px;
+      animation-name: floaty;
+    animation-timing-function: linear;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes floaty {
+    0%   {bottom: 20px;}
+    100% {bottom: 30px;}
+}
+
+#BOTI-sig .planet-lvl2 .astrohelmet {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #fff;
+  position: relative;
+}
+
+#BOTI-sig .planet-lvl2 .astrobody {
+  width: 12px;
+  height: 16px;
+  background: #fff;
+  position: relative;
+}
+#BOTI-sig .planet-lvl2 .astrobody:before {
+  display: block;
+  content: '';
+  width: 30px;
+  height: 8px;
+  border-radius: 50%;
+  border-top: 1px solid #fff;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+  border-bottom: none;
+  position: relative;
+  top: 0;
+  left: -9px;
+}
+#BOTI-sig .planet-lvl2 .astrobody:after {
+display: block;
+    content: '';
+    width: 12px;
+    height: 6px;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    position: relative;
+    top: 8px;
+}
+
+#BOTI-sig .planet-lvl2 .astroline {
+  width: 20px;
+  height: 5px;
+  border-bottom: 1px solid #fff;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 26px;
+  right: 0;
+}
+#BOTI-sig .planet-lvl2 .astroline:after {
+  display: block;
+  content: '';
+  width: 20px;
+  height: 5px;
+  border-top: 1px solid #fff;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -3px;
+  right: -18px;
+}
+
+#BOTI-sig .planet-lvl1 {
+  position: absolute;
+  z-index: 4;
+  width: 200px;
+  height: 200px;
+  top: 120px;
+  left: -35px;
+}
+#BOTI-sig .planet-lvl1 planet {
+  display: block;
+  z-index: 4;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: #fff;
+  background-image: url(https://cdnw.nickpic.host/xIxzVX.png), linear-gradient(to top, #f43b47 0%, #453a94 100%);
+  -webkit-box-shadow: 0px 0px 30px -15px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 30px -15px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 30px -15px rgba(0,0,0,0.75);
+}
+#BOTI-sig .ringhalf1 {
+width: 50px;
+height: 100px;
+position: absolute;
+background: transparent;
+border-left: 8px solid rgba(255,255,255,0.5);
+border-radius: 50%;
+left: 76px;
+bottom: -15px;
+z-index: 3;
+transform: rotate(45deg);
+}
+#BOTI-sig .ringhalf2 {
+width: 50px;
+height: 200px;
+position: absolute;
+background: transparent;
+border-right: 8px solid rgba(255,255,255,0.5);
+border-radius: 50%;
+left: 40px;
+bottom: -100px;
+z-index: 5;
+transform: rotate(45deg);
+}
