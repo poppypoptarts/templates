@@ -1,0 +1,158 @@
+@font-face {
+    font-family: "kingsland";
+    src: url('http://files.jcink.net/uploads/persecution/fonts/Kingsland_Regular.ttf');
+}
+
+#poppy-hedwig {
+  width: 723px;
+  height: 400px;
+  background: #151616;
+  background-image: url(https://cdnw.nickpic.host/xI8SOd.png);
+  position: relative;
+  overflow: hidden;
+  font: 12px Barlow Condensed;  
+}
+#poppy-hedwig #oct-border {
+  width: 320px;
+  height: 320px;
+  -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+  clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+  background: rgba(0,0,0,0.3);
+  position: absolute;
+  right: 50px;
+  top: 50px;  
+}
+#poppy-hedwig #oct-lrg {
+  width: 300px;
+  height: 300px;
+  -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+  clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+  background: #ffd400;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+#poppy-hedwig #oct-inside {
+  width: 280px;
+  height: 280px;
+  -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+  clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+  background: #151616;
+  background-image: url(https://cdnw.nickpic.host/xI8SOd.png);
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+#poppy-hedwig #oct-clip {
+  width: 460px;
+    height: 400px;
+    -webkit-clip-path: polygon(80% 0%, 80% 18%, 98% 39%, 98% 67%, 80% 87%, 80% 100%, 0 100%, 0 0);
+    clip-path: polygon(80% 0%, 80% 18%, 98% 39%, 98% 67%, 80% 87%, 80% 100%, 0 100%, 0 0);
+    background: rgba(0,0,0,0.0); /*REMOVE AT END */
+    position: absolute;
+    right: 60px;
+    top: 0px;
+}
+#poppy-hedwig #oct-clip .hogwarts {
+width: 655px;
+    height: 350px;
+    position: absolute;
+    right: -220px;
+    top: 0px;
+    z-index: 3;
+    -webkit-mask-image: url(https://cdnw.nickpic.host/xI15v2.png);
+    mask-image: url(https://cdnw.nickpic.host/xI15v2.png);
+    -webkit-mask-position: 30% 50%;
+    mask-position: 50% 50%;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 860px;
+    mask-size: 860px;
+    background-image: linear-gradient(165deg, #3b3b40 0%, #000000 100%);
+}
+#poppy-hedwig #oct-clip .cloudbank {
+      width: 130%;
+    position: absolute;
+    top: 46px;
+    right: -181px;
+    z-index: 4;
+    opacity: 0.2;
+}
+#poppy-hedwig #oct-clip .hedwig1 {
+  width: 400px;
+  position: absolute;
+right: 5px;
+    top: 17px;
+  z-index: 5;
+}
+#poppy-hedwig #oct-clip .geometric {
+position: absolute;
+    top: 33px;
+    right: -454px;
+    transform: rotate(31deg);
+    z-index: 3;
+}
+#poppy-hedwig #oct-clip .snow1 {
+    width: 400px;
+    position: absolute;
+    right: -163px;
+    top: 8px;
+    z-index: 6;
+    opacity: 0.9;
+}
+#poppy-hedwig #typography {
+  color: #fff;
+  position: relative;
+  width: 723px;
+  height: 400px;
+  z-index: 7;
+}
+#poppy-hedwig #typography .accentuated {
+position: absolute;
+    font: 120px kingsland;
+    line-height: 145%;
+    text-shadow: -2px 0 4px #000;
+    width: 300px!important;
+    text-align: center;
+    height: 130px;
+    top: 130px;
+    left: 80px;
+    transform: rotate(-5deg);
+    z-index: 7;
+}
+#poppy-hedwig #typography .accentuated a {
+position: absolute;
+top: 0px;
+    left: 0px;
+    width: 300px;
+    z-index: 2;
+    color: #ffd400;
+    -webkit-mask-image: linear-gradient(rgb(18, 18, 20), transparent);
+    -webkit-mask-size: 860px;
+    mask-size: 655px;
+}
+#poppy-hedwig #typography .accentuated:after {
+  content: "friend";
+  color: #000;
+  text-shadow: 3px 3px 1px #0f0f0f;
+}
+#poppy-hedwig #typography .standardtext1, #poppy-hedwig #typography .standardtext2 {
+  position: absolute;
+  font-size: 14px;
+  letter-spacing: 1px;
+  transform: rotate(-7deg);
+  opacity: 0.5;
+  z-index: 6;
+}
+#poppy-hedwig #typography .standardtext1 {
+  top: 196px;
+  left: 180px;
+}
+#poppy-hedwig #typography .standardtext2 {
+  top: 239px;
+  left: 149px;
+}
+#poppy-hedwig #typography .standardtext2 span {
+  display: block;
+  padding-left: 20px;
+}
